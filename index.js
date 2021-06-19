@@ -89,9 +89,9 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data) => {
+const writeToFile = (fileName) => {
     return new Promise((resolve, reject)=> {
-        fs.writeFile(filename, JSON.stringify(data) , err=>{
+        fs.writeFile('./Develop/Readme.md', fileName, err=>{
             if(err){
                 reject(err)
                 return;
