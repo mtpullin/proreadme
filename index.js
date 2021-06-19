@@ -2,7 +2,7 @@
 const inq = require('inquirer')
 const fs = require('fs')
 const generateMarkdown = require('./utils/generateMarkdown.js');
-const Choices = require('inquirer/lib/objects/choices');
+const choices = require('inquirer/lib/objects/choices');
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inq.prompt([
@@ -89,16 +89,17 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName) => {
-    return new Promise((resolve, reject)=> {
-        fs.writeFile('./Develop/Readme.md', fileName, err=>{
+const writeToFile = (data) => {
+    return new Promise((resolve, reject) => {
+        console.log(data)
+        fs.writeFile("./utils/readme.md", JSON.stringify(data), err =>{
             if(err){
                 reject(err)
                 return;
             }
-            resolve({
-                ok:true,
-                message:'file created'
+                resolve({
+                    ok: true,
+                    message:'file created'
             })
         })
     })
