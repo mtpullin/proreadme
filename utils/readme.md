@@ -1,1 +1,1 @@
-{"title":"as","description":"s","confirmTableOfContents":false,"installation":"","usage":"","credits":"","license":[],"badges":"","features":""}
+{"title":"proreadme","description":"project that creates a readme file for the user","confirmTableOfContents":true,"tableOfContents":"","installation":"","usage":"","credits":"","license":["MIT"],"badges":"","features":""}
