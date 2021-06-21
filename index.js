@@ -33,26 +33,6 @@ const questions = () => {
             }
         }
     },
-    
-    {
-        type: 'confirm',
-        name: 'confirmTableOfContents',
-        message: 'Would you like to include a table of contents?',
-        default:false
-
-    },
-    {
-        type: 'input',
-        name: 'tableOfContents',
-        message: 'List your table of contents.',
-        when: ({confirmTableOfContents}) => {
-            if(confirmTableOfContents) {
-                return true
-            }else {
-                return false;
-            }
-        }
-    },
     {
         type: 'input',
         name: 'installation',
