@@ -1,9 +1,9 @@
 // TODO: Include packages needed for this application
 const inq = require('inquirer')
 const fs = require('fs')
-const generateMarkdown = require('./utils/generateMarkdown.js');
-const choices = require('inquirer/lib/objects/choices');
+const readmeInput = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
+
 const questions = () => {
     return inq.prompt([
         {
@@ -50,16 +50,12 @@ const questions = () => {
         message: 'Name any collaborators or third-party assets'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'List a license',
         choices: ['MIT',  'GNU AGPLv3','GNU GPLv3', 'Unlicense']
     },
-    {
-        type: 'input',
-        name: 'badges',
-        message: 'list any badges'
-    },
+    
     {
         type: 'input',
         name: 'features',
@@ -72,7 +68,7 @@ const questions = () => {
 const writeToFile = (data) => {
     return new Promise((resolve, reject) => {
         console.log(data)
-        fs.writeFile("./utils/readme.md", JSON.stringify(data), err =>{
+        fs.writeFile("./utils/readme.md", data, err =>{
             if(err){
                 reject(err)
                 return;
@@ -86,12 +82,13 @@ const writeToFile = (data) => {
 }
 
 // TODO: Create a function to initialize app
-function init() {
+ 
     questions()
-    .then(writeToFile)
-    .then(generateMarkdown)
-}
+    .then((userData) =>{
+    return readmeInput(userData)
+    })
+    .then((userInput) =>{
+    return writeToFile(userInput)})
+    
 
-// Function call to initialize app
-init()
 

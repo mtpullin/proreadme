@@ -1,1 +1,22 @@
-{"title":"ProReadme","description":"REadme Generator","installation":"download the project code and run in command line to get question prompts which will fill out a readme for you","usage":"used to quickly and easily make professional looking readmes for projects with an easy to understand set of questions to let you fill them out quickly and effciently","credits":"none","license":["MIT"],"badges":"","features":""}
+# asd
+
+  ## Description
+  asd 
+
+  ## Installation
+   
+
+  ## Credits
+   
+
+  ## License
+  MIT 
+
+  ## Badges
+   
+  ![badge](https://img.shields.io/badge/license-MIT-red)
+
+  ## Features
+   
+
+
