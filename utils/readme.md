@@ -23,7 +23,7 @@
   ![badge](https://img.shields.io/badge/license-MIT-red)
   
   ## Tests
-  undefined
+
 
   ## Usage
   used to quickly create new readme files for projects with some predetermined sections and a table of contents. 
