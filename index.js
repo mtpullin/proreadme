@@ -58,9 +58,20 @@ const questions = () => {
     
     {
         type: 'input',
-        name: 'features',
-        message: 'list the features of your application or website'
+        name: 'contributions',
+        message: 'list anyone who helped contribute to the project'
     },
+
+    {
+        type: 'input',
+        name: 'github',
+        message: 'input github user name'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'enter your email for contact information'
+    }
 ])
 };
 
