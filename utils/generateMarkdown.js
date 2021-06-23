@@ -60,11 +60,12 @@ function generateMarkdown(data) {
   ${usage} 
 
   ## Questions
-  ${questions}
+  
   "If you have any questions please email at"
     ${questions}
+  
   "Visit my github profile for more of my work."
-  <a href="https://github.com/${github}">Github Page</a>
+    <a href="https://github.com/${github}">Github Page</a>
 `;
 }
 

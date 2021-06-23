@@ -10,10 +10,10 @@
   [Questions](#questions)
 
   ## Description
-  readme generator for new projects 
+  Readme file generator 
 
   ## Installation
-  download the required files from the github repo, then nevagate to the download fileusing the command line, then run node index.js to begin question prompts. 
+  Download the github repo and navigate to the folder in the command line. Then run node index.js from the command line and answer the prompts as they appear. 
 
   ## Credits
    
@@ -26,11 +26,12 @@
   undefined
 
   ## Usage
-  used to quickly create new readme files for projects with some predetermined sections and a table of contents. 
+  creates new readme files for projects with predetermined sections based on a question prompt. 
 
   ## Questions
-  mtpullin@gamil.com
+  
   "If you have any questions please email at"
-    mtpullin@gamil.com
+    mtpullin@gmail.com
+  
   "Visit my github profile for more of my work."
-  <a href="https://github.com/mtpullin">Github Page</a>
+    <a href="https://github.com/mtpullin">Github Page</a>
