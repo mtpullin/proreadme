@@ -53,7 +53,7 @@ const questions = () => {
         type: 'list',
         name: 'license',
         message: 'List a license',
-        choices: ['MIT',  'GNU AGPLv3','GNU GPLv3', 'Unlicense']
+        choices: ['MIT',  'GNU AGPLv3','GNU GPLv3', 'Unlicense', 'No License']
     },
 
     {
@@ -64,7 +64,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'questions',
-        message: 'enter your email for contact information'
+        message: 'enter your email'
     }
 ])
 };

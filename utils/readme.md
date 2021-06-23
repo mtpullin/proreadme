@@ -1,19 +1,19 @@
-# sd
+# ProReadMe
 
   ## Table Of Contents
   [description](#description)
   [Installation](#installation)
   [Usage](#usage)
   [License](#license)
-  [Contributions](#contributions)
+  [Credits](#credits)
   [Tests](#tests)
   [Questions](#questions)
 
   ## Description
-  asd 
+  readme generator for new projects 
 
   ## Installation
-   
+  download the required files from the github repo, then nevagate to the download fileusing the command line, then run node index.js to begin question prompts. 
 
   ## Credits
    
@@ -26,10 +26,11 @@
   undefined
 
   ## Usage
-   
+  used to quickly create new readme files for projects with some predetermined sections and a table of contents. 
 
   ## Questions
-  
+  mtpullin@gamil.com
   "If you have any questions please email at"
-  <input type= "email"> 
-  <a href="https://github.com/">Github Page</a>
+    mtpullin@gamil.com
+  "Visit my github profile for more of my work."
+  <a href="https://github.com/mtpullin">Github Page</a>
