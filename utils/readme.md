@@ -13,7 +13,9 @@
   readme generator for new projects 
 
   ## Installation
-  download the required files from the github repo, then nevagate to the download fileusing the command line, then run node index.js to begin question prompts. 
+  download the required files from the github repo, 
+  then nevagate to the download file using the command line, 
+  then run node index.js to begin question prompts. 
 
   ## Credits
    
