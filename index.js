@@ -55,12 +55,6 @@ const questions = () => {
         message: 'List a license',
         choices: ['MIT',  'GNU AGPLv3','GNU GPLv3', 'Unlicense']
     },
-    
-    {
-        type: 'input',
-        name: 'contributions',
-        message: 'list anyone who helped contribute to the project'
-    },
 
     {
         type: 'input',
