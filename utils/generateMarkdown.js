@@ -32,13 +32,13 @@ function generateMarkdown(data) {
   return `# ${title}
 
   ## Table Of Contents
-  [description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Credits](#credits)
-  [Tests](#tests)
-  [Questions](#questions)
+  ### [description](#description)
+  ### [Installation](#installation)
+  ### [Usage](#usage)
+  ### [License](#license)
+  ### [Credits](#credits)
+  ### [Tests](#tests)
+  ### [Questions](#questions)
 
   ## Description
   ${description} 
