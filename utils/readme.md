@@ -13,13 +13,9 @@
   Readme file generator 
 
   ## Installation
-<<<<<<< HEAD
-  Download the github repo and navigate to the folder in the command line. Then run node index.js from the command line and answer the prompts as they appear. 
-=======
   download the required files from the github repo, 
   then nevagate to the download file using the command line, 
   then run node index.js to begin question prompts. 
->>>>>>> 7ceb1849208c7f7baed996274fc31df21f893418
 
   ## Credits
    
