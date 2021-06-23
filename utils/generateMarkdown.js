@@ -28,7 +28,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const {title, description, installation, credits, license, usage, tests, questions} = data;
+  const {title, description, installation, credits, license, usage, tests, questions, github} = data;
   return `# ${title}
 
   ## Table Of Contents
@@ -61,6 +61,7 @@ function generateMarkdown(data) {
 
   ## Questions
   ${questions}
+  <a href="https://github.com/${github}">Github Page</a>
 `;
 }
 

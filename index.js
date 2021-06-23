@@ -69,7 +69,7 @@ const questions = () => {
     },
     {
         type: 'input',
-        name: 'email',
+        name: 'questions',
         message: 'enter your email for contact information'
     }
 ])
